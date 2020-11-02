@@ -13,7 +13,7 @@ function processHTML() {
 		.pipe(gulp.dest("dist/"))
 		.pipe(connect.reload());
 }
-
+ 
 function processSass() {
 	return gulp.src("src/sass/**/*.scss")
 	.pipe(sourceMap.init())
