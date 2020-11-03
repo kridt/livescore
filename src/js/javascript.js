@@ -6,7 +6,7 @@ fetch(`https://livescore-api.com/api-client/countries/list.json?&key=yxPQMOgJcIm
   
   let countries = data.data.country;
   let countriesList = document.querySelector(`.countriesList`);
-
+  let kampeSpilletListe = document.querySelector(".kampeSpillet");
   
   countries.forEach(function(lande) {
     const land = document.createElement("li");
@@ -16,6 +16,6 @@ fetch(`https://livescore-api.com/api-client/countries/list.json?&key=yxPQMOgJcIm
     `
     countriesList.appendChild(land)
   });
-  
+  console.log(data);
 
 });
