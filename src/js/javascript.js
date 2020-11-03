@@ -17,32 +17,5 @@ fetch(`https://livescore-api.com/api-client/countries/list.json?&key=yxPQMOgJcIm
     countriesList.appendChild(land)
   });
   
-console.log(lande.id);
-
- 
-  
-
-  /* let premierLeague = data.data.table;
-  let tabeloversigt = document.querySelector(".stilling");
-  let pointsTabel = document.querySelector(".points");
-
-
-  premierLeague.forEach(tabel => {
-    const hold = document.createElement(`li`);
-    hold.classList.add(`hold`);
-    hold.innerHTML = `
-    <a href="#">${tabel.name}</a> 
-    `
-    tabeloversigt.appendChild(hold)
-  });
-
-  premierLeague.forEach(point => {
-    const points = document.createElement(`li`);
-    points.classList.add(`point`);
-    points.innerHTML = `
-    ${point.points}
-    `
-    pointsTabel.appendChild(points)
-  }); */
 
 });

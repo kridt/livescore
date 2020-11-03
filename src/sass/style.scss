@@ -21,3 +21,14 @@ li a{
     text-decoration: none;
     color: black;
 } 
+
+
+.leagues{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.leagues li{
+    margin-bottom: 1em;
+}
