@@ -14,11 +14,11 @@ if(url.has("id")){
             const leagues = document.createElement("li");
             leagues.classList.add("liga");
             leagues.innerHTML = `
-            <a href="#">${liga.name}</a>
+            <a href="ligaer.html?ligaid=${liga.id}">${liga.name}</a>
             `
             ligaerList.appendChild(leagues)
           }); 
         
-        console.log(ligaer);
+        
 })
 };
