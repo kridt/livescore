@@ -26,6 +26,8 @@ li a{
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto;
+    margin-left: 3em;
+    max-width: 500px;
 }
 .kampeSpillet{
     grid-area: 1/2/1/2;
